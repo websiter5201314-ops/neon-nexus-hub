@@ -1,15 +1,8 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { MessageCircle, Instagram, Youtube, Twitch, Twitter } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 
 const socials = [
-  {
-    name: 'Discord',
-    icon: MessageCircle,
-    url: 'https://discord.gg/YOURSERVER',
-    color: 'from-[#5865F2] to-[#7289DA]',
-    hoverGlow: 'hover:shadow-[0_0_30px_#5865F2]',
-  },
   {
     name: 'Instagram',
     icon: Instagram,
@@ -23,20 +16,6 @@ const socials = [
     url: 'https://youtube.com/@YOURCHANNEL',
     color: 'from-[#FF0000] to-[#CC0000]',
     hoverGlow: 'hover:shadow-[0_0_30px_#FF0000]',
-  },
-  {
-    name: 'Twitch',
-    icon: Twitch,
-    url: 'https://twitch.tv/YOURCHANNEL',
-    color: 'from-[#9146FF] to-[#6441A5]',
-    hoverGlow: 'hover:shadow-[0_0_30px_#9146FF]',
-  },
-  {
-    name: 'Twitter',
-    icon: Twitter,
-    url: 'https://twitter.com/YOURPROFILE',
-    color: 'from-[#1DA1F2] to-[#0D8BD9]',
-    hoverGlow: 'hover:shadow-[0_0_30px_#1DA1F2]',
   },
 ];
 
