@@ -6,14 +6,14 @@ const socials = [
   {
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://instagram.com/YOURPROFILE',
+    url: 'https://instagram.com/shanks_livee?igdh=MXBsenl4Zm93cGVzaA==',
     color: 'from-[#833AB4] via-[#FD1D1D] to-[#F77737]',
     hoverGlow: 'hover:shadow-[0_0_30px_#FD1D1D]',
   },
   {
     name: 'YouTube',
     icon: Youtube,
-    url: 'https://youtube.com/@YOURCHANNEL',
+    url: 'https://youtube.com/@shanks-livee?si=v90WErrcdh4whfuH',
     color: 'from-[#FF0000] to-[#CC0000]',
     hoverGlow: 'hover:shadow-[0_0_30px_#FF0000]',
   },
