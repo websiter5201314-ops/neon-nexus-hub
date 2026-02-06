@@ -72,10 +72,10 @@ const HeroSection = () => {
 
         {/* Main title with glitch */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-black mb-6 text-glow-cyan">
-          <GlitchText text="SHADOW" />
+          <GlitchText text="SHANKS" />
           <br />
           <span className="text-secondary text-glow-orange">
-            <GlitchText text="STRIKER" />
+            <GlitchText text="SENSI" />
           </span>
         </h1>
 
