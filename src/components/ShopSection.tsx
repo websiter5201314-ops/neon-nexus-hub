@@ -229,7 +229,7 @@ const LootCard = ({ product, index, isInView, onUnlock }: LootCardProps) => {
           onClick={onUnlock}
           className="w-full"
         >
-          UNLOCK
+          BUY
         </NeonButton>
       </div>
 
