@@ -7,7 +7,7 @@ interface Product {
   id: string;
   name: string;
   price: string;
-  rarity: 'common' | 'rare' | 'epic' | 'legendary';
+  rarity: 'common' | 'rare' | 'epic' | 'legendary' | 'ultra';
   description: string;
   icon: React.ReactNode;
 }
@@ -42,6 +42,14 @@ const products: Product[] = [
     name: 'BAUJI x PREMIUM SENSI',
     price: '₹199.00',
     rarity: 'legendary',
+    description: '',
+    icon: <Crown className="w-8 h-8" />,
+  },
+  {
+    id: '5',
+    name: 'BAUJI x PREMIUM SENSI',
+    price: '₹199.00',
+    rarity: 'ultra',
     description: '',
     icon: <Crown className="w-8 h-8" />,
   },
