@@ -2,7 +2,6 @@ import ParticleBackground from '@/components/ParticleBackground';
 import HeroSection from '@/components/HeroSection';
 import PlayerProfileSection from '@/components/PlayerProfileSection';
 import ShopSection from '@/components/ShopSection';
-import VideoSection from '@/components/VideoSection';
 import SocialSection from '@/components/SocialSection';
 import Footer from '@/components/Footer';
 
@@ -20,7 +19,6 @@ const Index = () => {
         <HeroSection />
         <PlayerProfileSection />
         <ShopSection />
-        <VideoSection />
         <SocialSection />
         <Footer />
       </main>
