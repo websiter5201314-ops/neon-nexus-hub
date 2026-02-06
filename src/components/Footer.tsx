@@ -18,7 +18,7 @@ const Footer = () => {
         >
           <Crosshair className="w-6 h-6 text-primary" />
           <span className="font-orbitron font-bold text-xl text-foreground">
-            SHADOW<span className="text-primary">STRIKER</span>
+            SHANKS<span className="text-primary">SENSI</span>
           </span>
         </motion.div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          © {new Date().getFullYear()} ShadowStriker. All rights reserved.
+          © {new Date().getFullYear()} Shanks. All rights reserved.
         </motion.p>
 
         {/* HUD corners */}
